@@ -1,43 +1,44 @@
 # Marmeto---Assignment
 
 Task 2:
+Tab-Switching Product Display
+This project demonstrates a simple tab-switching layout to display product cards dynamically fetched from a Shopify API. The product cards include information such as image, badge, product title, vendor, price, compare at price, and dynamically calculated discount in percentage. The "Add to Cart" button is a visual representation and is not functional.
 
-Instructions
-When we click on the categories below, the card will be shown based on the category name.
-Product badge are dynamic and coming from api response
-Product card image should come from API response product image.
-We need to show Product title, Vendor name, Price, Compare at price, then calculated discount in % off.
-Add to cart button is just a dummy button.
+Technologies Used
+HTML: Markup language for structuring the webpage.
+CSS: Stylesheet language for styling the webpage.
+JavaScript: Programming language for dynamic behavior and interaction.
+Font Family
+The project uses the Inter font family, which can be accessed from Google Fonts.
 
-Resources
-* Font family - Inter - https://fonts.google.com/specimen/Inter
-* Product data API : https://cdn.shopify.com/s/files/1/0564/3685/0790/files/multiProduct.json
+Product Data API
+Product data is fetched from the Shopify API.
 
-Output Reference Image:
-Note: This image is just for reference and also it is not cross.
+Layout Responsiveness
+The webpage is designed to be responsive across various devices:
 
+Mobile Screen: Up to 767px width.
+Tablet Screen: 768px to 1024px width.
+Desktop Screen: Above 1025px width.
+Tab Switching
+Clicking on the "Men," "Women," or "Kids" tab dynamically updates the displayed product cards based on the category.
+Product Card Display
+The product cards are structured to display relevant information:
 
-Requirements
-* Create a tab switching layout.
-* Create product card with following data
-Image
-Badge
-Product title
-Vendor
-Price
-Compare at price
-Calculate % off using JS.
-Create Add to cart button (Just a visual button)
-
-Tab Switching:
-When the user clicks on the "Men", "Women", or "Kids" tab, show the respective product cards and hide the others.
-Implement a mechanism to toggle between the tabs, updating the displayed product cards accordingly.
-
-IMPORTANT POINTS
-Use HTML, CSS, and JavaScript only to build the design
-Don't use any libraries or frameworks like React, Tailwind, Bootstrap, or jQuery.
-The webpage should be responsive across the devices.
-
-Mobile Screen: Up to 767px
-Tablet Screen: 768px to 1024px
-Desktop Screen: Above 1025px
+Image: Dynamically fetched from the API response.
+Badge: Dynamic, fetched from the API response.
+Product Title: Displayed prominently.
+Vendor: The vendor's name is shown.
+Price: The regular price of the product.
+Compare at Price: The original price for comparison.
+Calculated Discount: Dynamically calculated in percentage.
+Add to Cart Button: A visual button, not functional.
+How to Run
+Clone the repository.
+Open the index.html file in a web browser.
+Project Structure
+index.html: Contains the HTML structure.
+styles.css: Includes the styles for the webpage.
+script.js: Contains the JavaScript code for dynamic functionality.
+Note
+This project was created without using any third-party libraries or frameworks, adhering to the requirements specified. Feel free to explore, modify, and use it as a foundation for your projects.
